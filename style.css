@@ -83,7 +83,7 @@ a {
           align-items:center;
   -ms-flex-line-pack:center;
       align-content:center;
-  background: rgba(0,0,0,0.5);
+  // background: rgba(0,0,0,0.5);
 }
 
 
@@ -94,9 +94,19 @@ a {
   color: white;
   font-family: 'Original Surfer';
   text-shadow: 5px 5px 2px black;
+  background: rgba(0,0,0,0.5);
+  padding: 40px;
 }
 .cover img {
-  margin-top:-100px;
-  width:500px;
+
+  max-width:30% !important;
+  max-height:100% !important;
+  display:block;
+}
+
+@media screen and (max-width:800px) {
+  .cover img  {
+    max-width:60% !important;
+  }
 }
 
