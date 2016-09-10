@@ -89,7 +89,8 @@ a {
 
 .cover h2 {
   text-align:center;
-  font-size:80px;
+  padding:0 10px;
+  font-size:7vw;
   color: white;
   font-family: 'Original Surfer';
   text-shadow: 5px 5px 2px black;
